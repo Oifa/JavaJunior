@@ -8,7 +8,7 @@ public class One {
         int N = 5, K = 6;
         if (N > 0) {
             for (int i = 0; i < K; i++) {
-                System.out.println(N);
+                System.out.println("N: " + N);
             }
         }
 
