@@ -16,7 +16,7 @@ public class Mayfield {
                 total = total + getSum(total, dOne);
             }
         }
-        System.out.println("The total is: " + total);
+        System.out.println("Total: " + total);
     }
 
     public static double getSum(double numOne, double numTwo) {
