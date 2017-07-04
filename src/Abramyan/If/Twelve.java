@@ -5,8 +5,8 @@ package Abramyan.If;
  */
 public class Twelve {
     public static void main(String[] args) {
-        int a = 40, b = 72, c = 12, e = 0;
-        if (a < b || a < c || b < c) {
+        int a = 40, b = 72, c = 12;
+        //if (a < b || a < c || b < c) {
             if (a < b && a < c) {
                 System.out.println(a);
             }
@@ -16,6 +16,6 @@ public class Twelve {
             if (c < a && c < b) {
                 System.out.println(c);
             }
-        }
+       // }
     }
 }

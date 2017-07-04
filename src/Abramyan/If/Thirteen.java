@@ -5,14 +5,14 @@ package Abramyan.If;
  */
 public class Thirteen {
     public static void main(String[] args) {
-        int a = 1, b = 2, c = 3;
-        if (a < b && b < c && c < a) {
+        int a = 20, b = 100, c = 3;
+        if (a < b && a > c || a < c && a > b) {
             System.out.println(a);
         }
-        if (b < c && c < a && a < b) {
+        if (b < c && b > a || b < c && b > a) {
             System.out.println(b);
         }
-        if (c < a && b < a && a < b) {
+        if (c < a && c > b || c < b && c > a) {
             System.out.println(c);
         }
     }
